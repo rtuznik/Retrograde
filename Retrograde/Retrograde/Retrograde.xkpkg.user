@@ -1,0 +1,37 @@
+!SettingsFile
+Settings:
+    Package/SceneSettings:
+        953809fd-942f-416a-b3bb-e83692ddc180:
+            CamPosition: {X: 1.84225035, Y: 3.551688, Z: 3.04271126}
+            CamPitchYaw: {X: -0.441533238, Y: 0.88583684}
+            CamProjection: Perspective
+            CamVerticalFieldOfView: 45.0
+            CamOrthographicSize: 10.0
+            CamNearClipPlane: 0.1
+            CamFarClipPlane: 1000.0
+            CamAspectRatio: 1.77777779
+            TranslationSnapActive: false
+            TranslationSnapValue: 1.0
+            RotationSnapActive: false
+            RotationSnapValue: 22.5
+            ScaleSnapActive: false
+            ScaleSnapValue: 1.1
+            SelectionMaskVisible: true
+            GridVisible: true
+            CameraPreviewVisible: true
+            RenderMode: Lighting
+            ActiveStream: 
+            TransformationGizmoSize: 1.0
+            ComponentGizmoSize: 1.0
+            FixedSizeGizmos: false
+            HiddenGizmos:
+                - Particle System
+                - Physics
+                - Script
+                - Transform
+            NavigationVisible: false
+            NavigationWireframes: false
+    Templates/ModelFromFile/DefaultSkeleton: 00000000-0000-0000-0000-000000000000
+    Templates/ModelFromFile/ImportMaterials: true
+    Templates/ModelFromFile/ImportSkeleton: false
+    Templates/ModelFromFile/ImportTextures: true

@@ -1,0 +1,6 @@
+!Texture
+Id: d0cba9a9-6bef-425c-b902-c1e6868858a6
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../../ExternalAssets/Geyser+Textures/Box001_metallic.tga
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

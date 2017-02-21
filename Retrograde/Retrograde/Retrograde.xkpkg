@@ -1,0 +1,49 @@
+!Package
+Id: 6fafba54-be02-49b8-8af3-5496eb6d57c0
+SerializedVersion: {Assets: 0.0.4}
+Meta:
+    Name: Retrograde
+    Version: 1.0.0.0
+    Authors: []
+    Owners: []
+    RootNamespace: Retrograde
+    Dependencies:
+        -   Name: Xenko
+            Version: 1.9.3-beta
+            RootAssets: []
+LocalDependencies: []
+Profiles:
+    -   Name: Shared
+        Platform: Shared
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Shared
+            -   Path: Retrograde.Game/Effects
+        OutputGroupDirectories: {}
+        ProjectReferences:
+            -   Id: 722d7e57-8678-4701-b79e-eb4d2a8f003d
+                Location: Retrograde.Game/Retrograde.Game.csproj
+                Type: Library
+    -   Name: Windows
+        Platform: Windows
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Windows
+        OutputGroupDirectories: {}
+        ProjectReferences:
+            -   Id: f253157d-6c65-435a-8ddc-13b651ee9870
+                Location: Retrograde.Windows/Retrograde.Windows.csproj
+                Type: Executable
+ExplicitFolders: []
+Bundles: []
+TemplateFolders: []
+RootAssets:
+    - 20f517ec-1b46-42ff-8ed0-fb279274bf51:Materials/rock/rock
+    - 3ef78ac7-452d-4b1e-9c0b-e95e94abedf0:Models/Geyser/GeyserModel
+    - 52944082-df10-45e2-b0bf-ef03bdc0209e:Models/Map/RetrogradeMap
+    - 560d1e5f-2bf1-4188-9908-66907de36178:Models/GeyserMap/GeyserMap2
+    - 60eec497-0117-4d48-8745-a6b5f8a170c8:Audio/backgroundMusic
+    - 6c386dbb-adf7-4225-9e88-ab4e35301c9c:Audio/malegrunt
+    - b7531c33-5f72-4019-8a7b-c1544834aa59:Audio/geyser
+    - d62d4e00-e70b-4fdf-9874-2a16a1eb1bff:Materials/rock/Material
+    - da4312ac-4130-46e8-82c5-29eca6dc9b9d:Audio/walkgravel

@@ -1,0 +1,14 @@
+!Model
+Id: 7d8d61a8-fa22-4b78-897d-c613e2394cd3
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: ../../Resources/Models/box.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    1c1114d90941f1420941f1420941f142:
+        Name: gold
+        MaterialInstance:
+            Material: 14e5431f-05ff-4880-8a0c-521df79b39ab:Materials/marble/marble
+Skeleton: null
+~SourceHashes:
+    54ccab077db5483ce4a6510bbc1c8f18~../../Resources/Models/box.fbx: 63047528a4b8c7fc888656181dd4dc07

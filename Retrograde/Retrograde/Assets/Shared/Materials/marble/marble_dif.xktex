@@ -1,0 +1,6 @@
+!Texture
+Id: 04393566-711f-4c5d-acb0-b2d7d0d3bd2d
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../Resources/Textures/marble/marble_dif.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,0 +1,6 @@
+!Texture
+Id: 19968453-e3c6-4b86-8ba5-95774fdd81a1
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../../ExternalAssets/Geyser+Textures/Box001_albedo.tga
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

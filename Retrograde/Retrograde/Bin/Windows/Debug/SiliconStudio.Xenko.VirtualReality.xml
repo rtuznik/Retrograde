@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SiliconStudio.Xenko.VirtualReality</name>
+    </assembly>
+    <members>
+        <member name="T:SiliconStudio.XenkoVersion">
+            <summary>
+            Internal version used to identify Xenko version.
+            </summary>
+            <remarks>
+            Note: When modifying the version here, it must be modified also in the Xenko.xkpkg 
+            </remarks>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.CurrentAssemblyAsText">
+            <summary>
+            The .NET current assembly version as text, not including pre-release (alpha, beta...) information.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.CurrentAsText">
+            <summary>
+            The Store current version as text, including pre-release (alpha, beta...) information
+            </summary>
+            <remarks>
+            Version number as described in http://docs.nuget.org/docs/reference/versioning
+            When using pre-release (alpha, beta, rc...etc.) and because the order of the release is in alphabetical order,
+            please use a double digit like alpha00 alpha01...etc. in order to make sure that we will follow the correct
+            order for the versions.
+            </remarks>
+        </member>
+        <member name="P:SiliconStudio.Xenko.VirtualReality.Hmd.ViewScaling">
+            <summary>
+            Allows you to scale the view, effectively it will change the size of the player in respect to the world, turning it into a giant or a tiny ant.
+            </summary>
+            <remarks>This will reduce the near clip plane of the cameras, it might induce depth issues.</remarks>
+        </member>
+        <member name="F:SiliconStudio.Xenko.VirtualReality.OculusOvr.SessionStatus.IsVisible">
+            <summary>
+            True if the process has VR focus and thus is visible in the HMD.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.Xenko.VirtualReality.OculusOvr.SessionStatus.HmdPresent">
+            <summary>
+            True if an HMD is present.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.Xenko.VirtualReality.OculusOvr.SessionStatus.HmdMounted">
+            <summary>
+            True if the HMD is on the user's head.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.Xenko.VirtualReality.OculusOvr.SessionStatus.DisplayLost">
+            <summary>
+            True if the session is in a display-lost state. See ovr_SubmitFrame.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.Xenko.VirtualReality.OculusOvr.SessionStatus.ShouldQuit">
+            <summary>
+            True if the application should initiate shutdown.    
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.Xenko.VirtualReality.OculusOvr.SessionStatus.ShouldRecenter">
+            <summary>
+            True if UX has requested re-centering. 
+            </summary>
+        </member>
+        <member name="M:Valve.VR.OpenVR.Init(Valve.VR.EVRInitError@,Valve.VR.EVRApplicationType)">
+            Finds the active installation of vrclient.dll and initializes it 
+        </member>
+        <member name="M:Valve.VR.OpenVR.Shutdown">
+            unloads vrclient.dll. Any interface pointers from the interface are
+            invalid after this point 
+        </member>
+    </members>
+</doc>

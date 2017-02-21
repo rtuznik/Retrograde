@@ -1,0 +1,79 @@
+!MaterialAsset
+Id: 20f517ec-1b46-42ff-8ed0-fb279274bf51
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Attributes:
+    Surface: !MaterialNormalMapFeature
+        NormalMap: !ComputeTextureColor
+            Texture: 2a21f4c2-13d3-4ce2-a3b5-2f28356ff1f5:Materials/rock/rock_nml
+            FallbackValue:
+                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Scale: {X: 10.0, Y: 10.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+        IsXYNormal: true
+    MicroSurface: !MaterialGlossinessMapFeature
+        GlossinessMap: !ComputeBinaryScalar
+            Operator: Add
+            LeftChild: !ComputeTextureScalar
+                Texture: 0a92bc5b-7a40-4dbc-bd4d-d90ed702a728:Materials/rock/rock_gls
+                FallbackValue:
+                    Value: 1.0
+                Scale: {X: 10.0, Y: 10.0}
+                Offset: {X: 0.0, Y: 0.0}
+            RightChild: !ComputeFloat
+                Value: 0.1
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeTextureColor
+            Texture: d0afdb31-1733-432b-a025-b5651a9780f9:Materials/rock/rock_dif
+            FallbackValue:
+                Value: {R: 0.78039217, G: 0.239215687, B: 0.239215687, A: 1.0}
+            Scale: {X: 10.0, Y: 10.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+    Specular: !MaterialSpecularMapFeature
+        SpecularMap: !ComputeFloat4
+            Value: {X: 1.0, Y: 1.0, Z: 1.0, W: 1.0}
+        Intensity: !ComputeFloat
+            Value: 0.03
+    SpecularModel: !MaterialSpecularMicrofacetModelFeature
+        Fresnel: !MaterialSpecularMicrofacetFresnelSchlick {}
+        Visibility: !MaterialSpecularMicrofacetVisibilitySmithSchlickGGX {}
+        NormalDistribution: !MaterialSpecularMicrofacetNormalDistributionGGX {}
+    Transparency: !MaterialTransparencyAdditiveFeature
+        Enabled: false
+        Alpha: !ComputeFloat
+            Value: 1.0
+        Tint: !ComputeColor
+            PremultiplyAlpha: false
+            Value: {R: 0.78039217, G: 0.239215687, B: 0.239215687, A: 1.0}
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+    CullMode: None
+Layers:
+    0615c75424ae0290c2841450713e6277:
+        Material: d62d4e00-e70b-4fdf-9874-2a16a1eb1bff:Materials/rock/Material
+        BlendMap: !ComputeTextureScalar
+            FallbackValue:
+                Value: 1.0
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        Overrides:
+            UVScale: {X: 1.0, Y: 1.0}
+    69d42af201242a79f1a14c0a563d5543:
+        BlendMap: !ComputeTextureScalar
+            FallbackValue:
+                Value: 1.0
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        Overrides:
+            UVScale: {X: 1.0, Y: 1.0}
+    a247d52e40daac66521c5d27f7ebcb9f:
+        BlendMap: !ComputeTextureScalar
+            FallbackValue:
+                Value: 1.0
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        Overrides:
+            UVScale: {X: 1.0, Y: 1.0}

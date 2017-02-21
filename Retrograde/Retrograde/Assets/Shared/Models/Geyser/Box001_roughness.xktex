@@ -1,0 +1,6 @@
+!Texture
+Id: 365a57ad-db0f-44b9-861e-3f5fe0b5191e
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../../ExternalAssets/Geyser+Textures/Box001_roughness.tga
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

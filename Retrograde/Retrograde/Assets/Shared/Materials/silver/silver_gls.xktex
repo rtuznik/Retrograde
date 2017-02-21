@@ -1,0 +1,6 @@
+!Texture
+Id: 0d2905f2-8034-4a7d-bd5b-c554f5d852be
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../Resources/Textures/silver/silver_gls.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

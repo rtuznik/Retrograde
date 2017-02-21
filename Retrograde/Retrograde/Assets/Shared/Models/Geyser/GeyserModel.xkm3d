@@ -1,0 +1,15 @@
+!Model
+Id: 3ef78ac7-452d-4b1e-9c0b-e95e94abedf0
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: ../../../../../ExternalAssets/Geyser+Textures/GeyserModel.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+ScaleImport: 1.5
+Materials:
+    269e671f94100f302761ec5f86ce9b1a:
+        Name: Material
+        MaterialInstance:
+            Material: ffbf83ab-60ca-48b9-b328-67660f82d600:Models/Geyser/GeyserMaterial
+Skeleton: null
+~SourceHashes:
+    a0f2b541196dee4b643a3ba4938f0bbc~../../../../../ExternalAssets/Geyser+Textures/GeyserModel.FBX: 60c70e15fb2be34db3ca4f137ba0b361

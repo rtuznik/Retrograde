@@ -1,0 +1,7 @@
+!Texture
+Id: 2a21f4c2-13d3-4ce2-a3b5-2f28356ff1f5
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../Resources/Textures/rock/rock_nml.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Hint: NormalMap

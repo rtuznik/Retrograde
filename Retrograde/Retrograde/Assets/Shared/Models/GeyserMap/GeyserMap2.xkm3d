@@ -1,0 +1,18 @@
+!Model
+Id: 560d1e5f-2bf1-4188-9908-66907de36178
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: ../../../../../ExternalAssets/GeyserMap2.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    589e4f30664cef8f1322de1fc1d58680:
+        Name: Material_1
+        MaterialInstance:
+            Material: bd084f6e-e060-47e9-a54b-e343beb50173:Models/GeyserMap/Material_1
+    c1d2aaf8c1563d59aee87f4489bcb5e2:
+        Name: Material_2
+        MaterialInstance:
+            Material: d6776eaa-ddcc-48ff-b46a-421471f72436:Models/GeyserMap/Material_2
+Skeleton: null
+~SourceHashes:
+    99503ec37dd8b75f817d6e559430469c~../../../../../ExternalAssets/GeyserMap2.FBX: 558f3daa8f6af36fee77a4bf47342e6a

@@ -1,0 +1,10 @@
+G:\Documents\Xenko Projects\Retrograde\Retrograde\Bin\Windows\Debug\Retrograde.Game.dll
+G:\Documents\Xenko Projects\Retrograde\Retrograde\Bin\Windows\Debug\Retrograde.Game.pdb
+G:\Documents\Xenko Projects\Retrograde\Retrograde\Retrograde.Game\obj\Windows\Debug\Retrograde.Game.csprojResolveAssemblyReference.cache
+G:\Documents\Xenko Projects\Retrograde\Retrograde\Retrograde.Game\obj\Windows\Debug\Retrograde.Game.dll
+G:\Documents\Xenko Projects\Retrograde\Retrograde\Retrograde.Game\obj\Windows\Debug\Retrograde.Game.pdb
+D:\XenkoProjects\Retrograde\Retrograde\Bin\Windows\Debug\Retrograde.Game.dll
+D:\XenkoProjects\Retrograde\Retrograde\Bin\Windows\Debug\Retrograde.Game.pdb
+D:\XenkoProjects\Retrograde\Retrograde\Retrograde.Game\obj\Windows\Debug\Retrograde.Game.csprojResolveAssemblyReference.cache
+D:\XenkoProjects\Retrograde\Retrograde\Retrograde.Game\obj\Windows\Debug\Retrograde.Game.dll
+D:\XenkoProjects\Retrograde\Retrograde\Retrograde.Game\obj\Windows\Debug\Retrograde.Game.pdb

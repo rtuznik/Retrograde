@@ -1,0 +1,6 @@
+!Texture
+Id: bdd689b9-e2f8-4ae8-b380-03b69cf878c6
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../../ExternalAssets/Geyser+Textures/Box001_specular.tga
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
